@@ -1,8 +1,8 @@
 {
-  "name": "shapeshifter",
+  "name": "nuclide-flow-path-fix",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "An atom plugin providing JavaScript code mods.",
+  "description": "A workaround for Nuclide sometimes failing to find your project's local flow path: https://github.com/facebook/nuclide/issues/1254",
   "keywords": [
     "es6",
     "babel",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericbiewener/shapeshifter.git"
+    "url": "https://github.com/ericbiewener/nuclide-flow-path-fix.git"
   },
   "author": {
     "name": "Eric Biewener",
@@ -25,10 +25,6 @@
     "babel-preset-latest": "^6.24.1",
     "eslint": "^4.2.0",
     "eslint-plugin-react": "^7.1.0"
-  },
-  "dependencies": {
-    "babylon": "^6.17.4",
-    "lodash": "^4.17.4"
   },
   "peerDependencies": {}
 }
