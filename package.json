@@ -1,5 +1,5 @@
 {
-  "name": "nuclide-flow-path-fix",
+  "name": "nuclideFlowPathFix",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "A workaround for Nuclide sometimes failing to find your project's local flow path: https://github.com/facebook/nuclide/issues/1254",
